@@ -1,6 +1,7 @@
 {
-   "short_name": "React App",
-   "name": "Create React App Sample",
+   "short_name": "Netflix Clone",
+   "homepage": "https://sebastiangolab.pl/netflix-clone",
+   "name": "Netflix Clone",
    "icons": [
       {
          "src": "favicon.ico",
