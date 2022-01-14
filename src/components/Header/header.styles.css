@@ -1,0 +1,39 @@
+.header {
+   position: fixed;
+   top: 0;
+   left: 0;
+   padding: 20px 3%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;
+   z-index: 9;
+   transition: background-color 0.3s;
+}
+
+.header.sticky {
+   background-color: var(--color-background);
+}
+
+.header__user {
+   height: 40px;
+}
+
+.header__user--hide {
+   visibility: hidden;
+}
+
+@media (max-width: 767px) {
+   .header {
+      padding: 17px 3%;
+   }
+
+   .header__logo {
+      width: 85px;
+      height: auto;
+   }
+
+   .header__user {
+      height: 35px;
+   }
+}

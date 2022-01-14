@@ -1,0 +1,27 @@
+.trailerModal__error {
+   color: var(--color-background);
+   padding: 20px 55px;
+   font-size: 47px;
+   background-color: #111;
+   color: #fff;
+}
+
+.totalModal__close {
+   background-color: #111;
+   color: #fff;
+   font-size: 17px;
+   border: none;
+   box-shadow: none;
+   float: right;
+   padding: 15px 15px;
+   width: 100%;
+   cursor: pointer;
+   margin-top: -3px;
+   line-height: 17px;
+   transition: background-color 0.3s;
+}
+
+.totalModal__close:hover {
+   background-color: #202020;
+   color: #eee;
+}

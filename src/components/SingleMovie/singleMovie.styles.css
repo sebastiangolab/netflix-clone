@@ -1,0 +1,11 @@
+.movie {
+   width: 100%;
+   height: auto;
+   border-radius: 5px;
+   transition: transform 0.4s;
+   cursor: pointer;
+}
+
+.movie:hover {
+   transform: scale(1.045);
+}

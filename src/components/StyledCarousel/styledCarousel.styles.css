@@ -1,0 +1,33 @@
+.InfiniteCarouselFrame {
+   padding-top: 20px;
+   padding-bottom: 3px;
+}
+
+.InfiniteCarouselArrow {
+   display: none !important;
+   justify-content: center;
+   align-items: center;
+   background: rgba(1, 1, 1, 0.5) !important;
+   width: 40px;
+   height: 40px;
+   border-radius: 100%;
+}
+
+#infinite-carousel:hover .InfiniteCarouselArrow {
+   display: flex !important;
+}
+
+.InfiniteCarouselArrowIcon {
+   padding: 6px !important;
+   border-width: 0 3px 3px 0 !important;
+}
+
+.InfiniteCarouselArrowPrev {
+   left: 22px !important;
+   padding-left: 5px !important;
+}
+
+.InfiniteCarouselArrowNext {
+   right: 22px !important;
+   padding-right: 5px !important;
+}

@@ -1,0 +1,62 @@
+.users {
+   width: 100vw;
+   height: 100vh;
+   overflow: hidden;
+   object-fit: contain;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-bottom: 120px;
+}
+
+.users__title {
+   font-size: 67px;
+   margin-bottom: 55px;
+   text-align: center;
+   letter-spacing: 3px;
+   font-weight: 100;
+}
+
+.users__container {
+   padding-left: 20%;
+   padding-right: 20%;
+}
+
+.users-list {
+   display: flex;
+}
+
+@media (max-width: 1199px) {
+   .users__title {
+      font-size: 57px;
+   }
+}
+
+@media (max-width: 991px) {
+   .users__title {
+      font-size: 47px;
+   }
+   .users__container {
+      padding-left: 15%;
+      padding-right: 15%;
+   }
+}
+
+@media (max-width: 767px) {
+   .users__title {
+      font-size: 34px;
+      margin-bottom: 35px;
+   }
+
+   .users__container {
+      padding-left: 5%;
+      padding-right: 5%;
+      padding-top: 100px;
+   }
+
+   .users-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+   }
+}
