@@ -2,7 +2,7 @@ import './header.styles.css';
 import logo from 'assets/images/logo.png';
 import user from 'assets/images/user-1.jpg';
 import { useState } from 'react';
-import { useEffect } from 'react/cjs/react.development';
+import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
