@@ -6,7 +6,7 @@ import Page404 from 'views/Page404/Page404';
 import Users from 'views/Users/Users';
 
 const App = () => (
-   <BrowserRouter basename={'/netflix-clone'}>
+   <BrowserRouter>
       <Routes>
          <Route path="*" element={<Page404 />} />
          <Route path="/" exact element={<Users />} />
