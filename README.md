@@ -2,7 +2,7 @@
 
 ## About The Project
 
-I maked netflix clone in form a exercise
+I made netflix clone for exercise
 
 ### Project Link
 
